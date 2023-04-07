@@ -1,0 +1,25 @@
+app:
+  name: "goweb"
+  mode: "dev"
+  port: 8080
+  version: "v0.1.4"
+log:
+  level: "debug"
+  filename: "goweb.log"
+  max_size: 200
+  max_age: 30
+  max_backups: 7
+mysql:
+  host: "127.0.0.1"
+  port: 3306
+  username: "root"
+  password: "123456"
+  dbname: "blue_bell"
+  max_open_conns: 20
+  max_idle_conns: 10
+redis:
+  host: "192.168.29.140"
+  port: 6379
+  db: 0
+  password: ""
+  pool_size: 100
